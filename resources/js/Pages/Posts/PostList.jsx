@@ -20,7 +20,7 @@ function PostList(props) {
     
 
 
-    <Link href={route('my-logout')} method="post" as="button" className='btn btn-danger px-4 py-2 mx-auto w-max'>
+    <Link href={route('my-logout')} method="post" as="button" className='btn btn-warn px-4 py-2 mx-auto w-max'>
         Log Out
     </Link>
 
